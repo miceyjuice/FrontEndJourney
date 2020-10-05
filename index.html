@@ -1,64 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="container__topBar">
-            <div class="container__topBar__logo">
-                <img src="./assets/logo.png" alt="Logo Company Brand">
-            </div>
-            <div class="container__topBar__altLog">
-                <p class="container__topbar__altLog__text">
-                    New in town? Join us
-                </p>
-                <button class="container__topbar__altLog__btn">
-                    Sign up
-                </button>
-            </div>
+      <div class="container__topBar">
+        <div class="container__topBar__logo">
+          <img src="./assets/logo.png" alt="Logo Company Brand" />
         </div>
-        <div class="container__logBox">
-            <div class="container__logBox__boxTitle">
-                <h2 class="container__logBox__boxTitle__text">
-                    Glad you're here!
-                </h2>
-            </div>
-            <form class="container__logBox__logForm">
-                 <div class="container__logBox__logForm__nameBox">
-                    <label for="name" class="container__logBox__logForm__name">Name</label>
-                    <img src="./assets/person.png" alt="Login Name Person" />
-                    <input type="text" name="name" id="name" />
-                 </div>
-                 <div class="container__logBox__logForm__passwordBox">
-                    <label for="password" class="container__logBox__logForm__password">Password</label>
-                    <img src="./assets/password.png" alt="Login Password Cypher" />
-                    <input type="password" name="password" id="password" />
-                 </div>
-                 <button class="container__logBox__logForm__btn">
-                         Login
-                 </button>
-            </form>
-            <span class="container__altText">
-                OR
-            </span>
-            <div class="container__logMedia">
-                <button class="container__logMedia__googleLog">
-                    <img src="./assets/google.png" alt="Login Alternative Google">
-                </button>
-                <button class="container__logMedia__facebookLog">
-                    <img src="./assets/facebook.png" alt="Login Alternative Facebook">
-                </button>
-                <button class="container__logMedia__twitterLog">
-                    <img src="./assets/twitter.png" alt="Login Alternative Twitter">
-                </button>
-            </div>
+        <div class="container__topBar__altLog">
+          <p class="container__topBar__altLog__text">New in town? Join us</p>
+          <button class="container__topBar__altLog__btn">Sign up</button>
         </div>
+      </div>
+      <div class="container__logBox">
+        <div class="container__logBox__boxTitle">
+          <h2 class="container__logBox__boxTitle__text">Glad you're here!</h2>
+        </div>
+        <form class="container__logBox__logForm">
+          <div class="container__logBox__logForm__nameBox">
+            <label for="name" class="container__logBox__logForm__name"
+              >Name</label
+            >
+            <div class="container__logBox__logForm__imgLabel">
+              <img src="./assets/person.png" alt="Login Name Person" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+          </div>
+          <div class="container__logBox__logForm__passwordBox">
+            <label for="password" class="container__logBox__logForm__password"
+              >Password
+            </label>
+            <div class="container__logBox__logForm__imgLabel">
+              <img src="./assets/password.png" alt="Login Password Cypher" />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+              />
+            </div>
+          </div>
+          <button class="container__logBox__logForm__btn">Login</button>
+        </form>
+        <span class="container__altText"> OR </span>
+        <div class="container__logMedia">
+          <button class="container__logMedia__icon">
+            <img src="./assets/google.png" alt="Login Alternative Google" />
+          </button>
+          <button class="container__logMedia__icon">
+            <img src="./assets/facebook.png" alt="Login Alternative Facebook" />
+          </button>
+          <button class="container__logMedia__icon">
+            <img src="./assets/twitter.png" alt="Login Alternative Twitter" />
+          </button>
+        </div>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
